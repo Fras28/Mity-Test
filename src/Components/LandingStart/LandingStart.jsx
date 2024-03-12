@@ -11,6 +11,7 @@ import {
 } from "../redux/slice";
 import { ButtonEnter } from "./ButtonEnter/ButtonEnter";
 import CtaDNI from "../assets/BaneDNI.png";
+import Logo from  "../assets/Logo.png"
 
 export const Inicio = (url) => {
   const dispatch = useDispatch();
@@ -50,6 +51,7 @@ const Location = <svg width="30" viewBox="0 0 100 100" fill="none" xmlns="http:/
         <img src={CtaDNI} alt="" width="100%" />
 
         <div className="BottomLanding">
+        
           <div>
             <AlertDialogSlide />
        
@@ -59,7 +61,7 @@ const Location = <svg width="30" viewBox="0 0 100 100" fill="none" xmlns="http:/
             <ButtonEnter titulo="Ver Catalogo" />
           </div>
    
-          <a style={{color:"white", fontWeight:"600"}} href="https://www.google.com/maps/place/Zapiola+69,+B8000CLA+Bah%C3%ADa+Blanca,+Provincia+de+Buenos+Aires/@-38.7136159,-62.2620106,17z/data=!3m1!4b1!4m6!3m5!1s0x95eda3532f3fcf3d:0xc3ed006645e95e9c!8m2!3d-38.7136159!4d-62.2620106!16s%2Fg%2F11f6kymq4s?entry=ttu" target="_blank">{Location}Zapiola 69</a>
+          <a style={{color:"white", fontWeight:"600"}} href="https://www.google.com/maps/dir//mity+sarmiento/@-38.7091837,-62.2630654,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95eda356f38b65eb:0x72cd96e7db9679b6!2m2!1d-62.2550936!2d-38.7076801?entry=ttu" target="_blank">{Location} Sarmiento 1143</a>
             <img src={CtaDNI} alt="" width="100%" style={{marginTop:"15px"}} />
   
         </div>

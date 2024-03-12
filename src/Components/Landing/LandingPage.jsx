@@ -43,7 +43,7 @@ export default function LandingPage(url) {
       <div className="naviLanding titCasa ">
         <div className="logoL">
           <NavLink to={`/${id}`}>
-            <img src={Logo} alt="" width="120px" />
+            <img src={Logo} alt="" width="200px" />
           </NavLink>
         </div>
         <div className="navi2">
@@ -54,7 +54,7 @@ export default function LandingPage(url) {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <path d="M59 0.999995L0 1" stroke="#E88A23" />
+            <path d="M59 0.999995L0 1" stroke="#DD000A" />
           </svg>
           <Horarios />
           <svg
@@ -64,7 +64,7 @@ export default function LandingPage(url) {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <path d="M59 0.999995L0 1" stroke="#E88A23" />
+            <path d="M59 0.999995L0 1" stroke="#DD000A" />
           </svg>
         </div>
       </div>
@@ -99,7 +99,7 @@ export default function LandingPage(url) {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <path d="M59 0.999995L0 1" stroke="#E88A23" />
+          <path d="M59 0.999995L0 1" stroke="#DD000A" />
         </svg>
         <p className="naviTit3"> Seguinos en </p>
         <svg
@@ -109,7 +109,7 @@ export default function LandingPage(url) {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <path d="M59 0.999995L0 1" stroke="#E88A23" />
+          <path d="M59 0.999995L0 1" stroke="#DD000A" />
         </svg>
       </div>
       <VerPedido id={url.location.pathname.slice(1, 3)} />

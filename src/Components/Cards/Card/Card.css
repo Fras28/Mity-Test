@@ -43,7 +43,7 @@
 }
 
 .btnPlus:active {
-  background-color: #E88A23;
+  background-color: #DF000B;
 }
 
 .leftInfo {
@@ -58,13 +58,13 @@
   align-items: center;
   justify-content: space-around;
   border-radius: 16px;
-  background-color: #E88A23;
-  border: outset #E88A23 2px;
+  background-color: #DF000B;
+  border: outset #DF000B 2px;
   width: 100%;
   height: 100%;
 }
 .masMenos:hover{
-    border: inset #E88A23 2px;
+    border: inset #DF000B 2px;
 }
 
 .masMenos > button {

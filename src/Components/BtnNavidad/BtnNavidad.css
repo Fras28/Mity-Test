@@ -27,6 +27,8 @@
 .noBord{
     border: none;
     background-color: transparent;
+    color: white;
+    font-weight: 600;
 
     border-radius: 50%;
     padding: 0;
@@ -85,7 +87,7 @@
   
   /* Estilos para el botón que abre la ventana modal */
   .btnNav2 {
-    background-color: orange;
+    background-color: #DD000A;
     color: white;
     padding: 0.5rem;
     border-radius: 8px;

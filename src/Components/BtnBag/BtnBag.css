@@ -8,12 +8,12 @@
     height: 50px;
     display: flex;
     border-radius: 24px;
-    background-color: #E88A23;
-    border: outset #E88A23 2px;
+    background-color: #DF000B;
+    border: outset #DF000B 2px;
     margin: auto;
     align-items: center;
     padding: 0 .5rem 0 .5rem;
-    box-shadow: 0px 0px 8px #E88A23;
+    box-shadow: 0px 0px 8px #DF000B;
 }
 
 .pedido{

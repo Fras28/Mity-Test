@@ -18,7 +18,7 @@ h1{
   z-index: 9999;
   justify-content: space-evenly;
   padding-bottom: 2%;
-  border-bottom:  1px solid orange;
+  border-bottom:  1px solid #DF000B;
   background-image: url("../assets/bgNav.png");
 }
   /*============= Search bar ==========*/
