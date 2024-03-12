@@ -52,7 +52,6 @@ export const Polleria = (id) => {
   });
   const subCategoriasTrue = subCategoriaFilters.filter((e) => e[0]);
 
-  console.log(subCategoriasTrue[0][0]?.attributes?.sub_categoria?.data?.id);
 
   return (
     <div className="containerL">
