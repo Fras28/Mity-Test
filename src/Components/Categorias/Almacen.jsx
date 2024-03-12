@@ -40,18 +40,14 @@ export const Almacen = (id) => {
     
       return acc;
     }, []);
-    
-    // Puedes acceder a cada Xn dinámicamente
-    const dynamicVariables = Object.keys(subCategoriaFilters).map((key) => {
-      return subCategoriaFilters[key];
-    });
-  
+ 
+    const subCategoriasTrue = subCategoriaFilters.filter(e => e[0])
     return (
       <div className="containerL">
         <Nav id={mesa} />
         <div className="sectioner">
-        {subCategoriaFilters.length < 1?  <div className="sectioner">
-          {subCategoriaFilters.map((product, index) =>
+        {subCategoriasTrue.length < 1?  <div className="sectioner">
+          {subCategoriasTrue.map((product, index) =>
             product[0] ? (
               <a
                 key={index}
@@ -65,7 +61,7 @@ export const Almacen = (id) => {
         </div>
         <div className="conteinerLC ">
           <div className="conteinerLB2 animate__animated  animate__zoomIn animate__faster">
-          {subCategoriaFilters?.map(product => (
+          {subCategoriasTrue?.map(product => (
         product[0]?
     <div key={product[0]?.attributes?.sub_categoria?.data?.id}>
      {product[0]?.attributes?.sub_categoria?.data?.attributes?.picture?.data?.attributes?.url?   <img
